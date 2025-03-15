@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+body{
+    margin: 0;
+    text-align: center;
+    color: #050505;
+    background-color: #D9EAFD;
+    font-family: "Tektur", sans-serif;
+}
+.container{
+gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 700px;
+    margin:0 auto;
+}
+
+nav a{ text-decoration: none;
+    color: white;
+    border: 7px solid rgb(102, 102, 102);
+    border-radius:7px ;
+    background-color: lightslategrey;
+    padding: 10px;
+}
+img{
+   
+}
+nav a:focus{
+    box-shadow: 0 10px 15px 0 rgb(0, 173, 75);
+
+}
+nav a:hover{
+    transition: 0.3s;
+    background-color: rgb(169, 206, 255);
+}
+nav{
+    margin-top:10px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.item img{
+    width: 300px;
+
+}
+.item{ 
+    padding: 10px;
+    border: 5px dashed #526E48;
+    border-radius: 10px;
+}
+footer{margin-top: 20px;
+    background-color: #A6AEBF;
+    padding: 20px;
+
+}
+.item:hover{
+    box-shadow: 0 10px 15px 0 rgb(97, 97, 97);
+}
+a{
+    text-decoration: none;
+    color: #050505;
+}
+p{
+    margin: 10px auto;
+    width: 800px;
+    font-size: 20px;
+}
